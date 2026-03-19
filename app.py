@@ -88,13 +88,13 @@ async def submit_lead(lead_data: LeadFormModel):
                 "First_Name": lead_data.first_name,
                 "Last_Name": lead_data.last_name,
                 "Mobile": lead_data.mobile_number,
-                "Designation": lead_data.business_type, 
+                "Lead_Type": lead_data.business_type, 
                 "Street": lead_data.street_address,
                 "City": lead_data.city,
                 "State": lead_data.state,
                 "Zip_Code": lead_data.pincode,
                 "Country": lead_data.country,
-                "Lead_Source": lead_data.lead_source
+                "Source_of_Lead": lead_data.lead_source
             }
         ]
     }
